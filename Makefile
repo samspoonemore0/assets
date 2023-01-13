@@ -50,4 +50,4 @@ add-tokenlist:
 	go run cmd/main.go add-tokenlist $(asset_id)
 
 add-tokenlist-extended:
-	go run cmd/main.go add-tokenlist-extended $(asset_id)
+	go run cmd/main.go add-tokenlist-extended $(10,000)
